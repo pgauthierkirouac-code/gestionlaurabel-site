@@ -211,37 +211,37 @@
 
 /* ===== Logo responsive sizing ===== */
 .logo-nav {
-  height: 140px;
+  height: 96px;
   width: auto;
 }
 .logo-nav-mobile {
-  height: 90px;
+  height: 62px;
   width: auto;
 }
 .logo-footer {
-  height: 100px;
+  height: 69px;
   width: auto;
 }
 @media (max-width: 991px) {
   .logo-nav {
-    height: 70px;
+    height: 48px;
   }
   .logo-nav-mobile {
-    height: 60px;
+    height: 41px;
   }
   .logo-footer {
-    height: 70px;
+    height: 48px;
   }
 }
 @media (max-width: 575px) {
   .logo-nav {
-    height: 56px;
+    height: 38px;
   }
   .logo-nav-mobile {
-    height: 50px;
+    height: 34px;
   }
   .logo-footer {
-    height: 56px;
+    height: 38px;
   }
 }
 
