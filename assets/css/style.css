@@ -219,7 +219,7 @@
   width: auto;
 }
 .logo-footer {
-  height: 100px;
+  height: 150px;
   width: auto;
 }
 @media (max-width: 991px) {
@@ -230,7 +230,7 @@
     height: 56px;
   }
   .logo-footer {
-    height: 80px;
+    height: 110px;
   }
 }
 @media (max-width: 575px) {
@@ -241,7 +241,7 @@
     height: 46px;
   }
   .logo-footer {
-    height: 64px;
+    height: 90px;
   }
 }
 
