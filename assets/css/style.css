@@ -208,4 +208,84 @@
   background-color: var(--tc-system-white) !important;
   border: 1px solid var(--tc-theme-primary) !important;
 }
+
+/* ===== Logo responsive sizing ===== */
+.logo-nav {
+  height: 140px;
+  width: auto;
+}
+.logo-nav-mobile {
+  height: 90px;
+  width: auto;
+}
+.logo-footer {
+  height: 100px;
+  width: auto;
+}
+@media (max-width: 991px) {
+  .logo-nav {
+    height: 70px;
+  }
+  .logo-nav-mobile {
+    height: 60px;
+  }
+  .logo-footer {
+    height: 70px;
+  }
+}
+@media (max-width: 575px) {
+  .logo-nav {
+    height: 56px;
+  }
+  .logo-nav-mobile {
+    height: 50px;
+  }
+  .logo-footer {
+    height: 56px;
+  }
+}
+
+/* ===== Mobile spacing tune-ups ===== */
+@media (max-width: 767px) {
+  .marketing-agency-section-header .py-lg-200 {
+    padding-top: 80px !important;
+    padding-bottom: 40px !important;
+  }
+  h1, .ds-3 {
+    word-break: break-word;
+  }
+  .price-grid, .row.g-4 {
+    row-gap: 1.25rem;
+  }
+}
+/* ===== Responsive heading sizes (mobile) ===== */
+@media (max-width: 767px) {
+  :root {
+    --tc-ds-1: 40px;
+    --tc-ds-2: 36px;
+    --tc-ds-3: 32px;
+    --tc-ds-4: 30px;
+    --tc-ds-5: 28px;
+    --tc-ds-6: 26px;
+  }
+}
+@media (max-width: 575px) {
+  :root {
+    --tc-ds-1: 34px;
+    --tc-ds-2: 30px;
+    --tc-ds-3: 28px;
+    --tc-ds-4: 26px;
+    --tc-ds-5: 24px;
+    --tc-ds-6: 22px;
+  }
+}
+/* ===== Responsive section padding (mobile) ===== */
+@media (max-width: 767px) {
+  .pt-150 { padding-top: 60px !important; }
+  .pb-350 { padding-bottom: 60px !important; }
+  .pt-120, .py-120 { padding-top: 60px !important; }
+  .pb-120, .py-120 { padding-bottom: 60px !important; }
+  .pb-110 { padding-bottom: 50px !important; }
+  .pt-60, .pb-60 { padding-top: 32px !important; padding-bottom: 32px !important; }
+}
 /*# sourceMappingURL=style.css.map */
