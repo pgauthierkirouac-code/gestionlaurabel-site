@@ -61,14 +61,8 @@
                 </a>
                 <div class="d-none d-lg-flex">
                     <ul class="navbar-nav mx-auto gap-4 align-items-lg-center">
-                        <li class="nav-item dropdown menu-item-has-children">
-                            <a class="nav-link text-uppercase" href="#" role="button" data-bs-toggle="dropdown" aria-expanded="false"> Nos services </a>
-                            <ul class="dropdown-menu">
-                                <li><a class="dropdown-item" href="services-gestion-administrative.html">Gestion administrative</a></li>
-                                <li><a class="dropdown-item" href="services-comptabilite-administrative.html">Comptabilité administrative</a></li>
-                                <li><a class="dropdown-item" href="services-paie-administration.html">Paie et administration des employés</a></li>
-                                <li><a class="dropdown-item" href="services-construction.html">Gestion pour les entreprises de construction</a></li>
-                            </ul>
+                        <li class="nav-item">
+                            <a class="nav-link text-uppercase" href="#services"> Nos services </a>
                         </li>
                         <li class="nav-item">
                             <a class="nav-link text-uppercase" href="#valeurs"> Notre ADN </a>
@@ -117,15 +111,7 @@
                         <div class="mobile-menu-wrap mobile-header-border">
                             <nav>
                                 <ul class="mobile-menu ps-0">
-                                    <li class="has-children">
-                                        <a href="#">Nos services</a>
-                                        <ul class="sub-menu">
-                                            <li><a href="services-gestion-administrative.html">Gestion administrative</a></li>
-                                            <li><a href="services-comptabilite-administrative.html">Comptabilité administrative</a></li>
-                                            <li><a href="services-paie-administration.html">Paie et administration des employés</a></li>
-                                            <li><a href="services-construction.html">Gestion pour les entreprises de construction</a></li>
-                                        </ul>
-                                    </li>
+                                    <li><a href="#services">Nos services</a></li>
                                     <li><a href="#valeurs">Notre ADN</a></li>
                                     <li><a href="#faq">FAQ</a></li>
                                     <li><a href="#contact">Contact</a></li>
@@ -181,6 +167,23 @@
             </div>
         </section>
 
+        <!--intro-->
+        <section id="accueil-intro" class="position-relative overflow-hidden py-120 bg-secondary-2">
+            <div class="container">
+                <div class="text-center col-lg-9 mx-auto">
+                    <span class="content-top btn-text text-primary d-flex align-items-center justify-content-center">
+                        <div class="line"></div>
+                        <span class="mx-3">gestion laurabel</span>
+                        <div class="line"></div>
+                    </span>
+                    <h2 class="mt-3 mb-4 text-anime-style-2">Votre partenaire en gestion d’entreprise</h2>
+                    <p class="fs-18 fw-semibold">Offrez à votre entreprise les avantages d’une gestion professionnelle, flexible et adaptée à votre réalité.</p>
+                    <p class="fs-18">Gestion LaurAbel accompagne les petites entreprises dans leur gestion interne en proposant des services administratifs, comptables et organisationnels adaptés à leurs besoins.</p>
+                    <p class="fs-18 mb-0">Une expertise polyvalente, au service de votre croissance et de votre tranquillité d’esprit.</p>
+                </div>
+            </div>
+        </section>
+
         <!--marketing-agency-home section 2-->
         <section class="marketing-agency-home-section-2 position-relative overflow-hidden py-120">
             <div class="container position-relative z-1">
@@ -199,12 +202,17 @@
                     </div>
                     <div class="col-lg-6">
                         <div class="border-bottom pb-60" data-aos="fade-up" data-aos-delay="200">
-                            <h6>Notre approche</h6>
-                            <p class="pt-2 mb-0">Nous croyons qu’une bonne gestion repose sur la simplicité. Nous privilégions des façons de faire claires et efficaces, adaptées à vos besoins.</p>
+                            <h6>Un accompagnement à votre image</h6>
+                            <p class="pt-2">Chaque entreprise possède sa propre réalité, ses ressources et ses ambitions.</p>
+                            <p>Nous prenons le temps de comprendre votre fonctionnement, d’évaluer vos besoins et de proposer des solutions concrètes.</p>
+                            <p>Que ce soit pour prendre en charge certaines responsabilités, accompagner votre personnel ou optimiser vos méthodes de travail, Gestion LaurAbel s’intègre à votre équipe avec simplicité et efficacité.</p>
+                            <p class="mb-0 fw-semibold">Votre entreprise, vos besoins, notre expertise.</p>
                         </div>
                         <div class="pt-60" data-aos="fade-up" data-aos-delay="400">
-                            <h6>Notre objectif</h6>
-                            <p class="pt-2">Simplifier votre administration et vous libérer du temps pour vous consacrer à votre entreprise.</p>
+                            <h6>Une équipe qui complète la vôtre</h6>
+                            <p class="pt-2">Gestion LaurAbel travaille en collaboration avec vos ressources internes pour favoriser une gestion efficace et harmonieuse.</p>
+                            <p>Nous accompagnons votre personnel dans ses responsabilités, partageons nos connaissances et contribuons à l’amélioration de vos pratiques administratives.</p>
+                            <p class="mb-0 fw-semibold">Ensemble, nous simplifions votre gestion et maximisons vos ressources.</p>
                         </div>
                     </div>
                 </div>
@@ -228,42 +236,46 @@
                 </div>
             </div>
             <div class="container">
-                <div class="row g-4">
-                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="0">
-                        <a href="services-gestion-administrative.html" class="text-decoration-none">
-                            <div class="bg-white border p-5 text-center h-100 hover-up">
-                                <img src="assets/imgs/icons/icon-admin.png" alt="Gestion administrative" style="width: 100px; height: 100px; margin: 0 auto 24px;" />
-                                <h6 class="fw-semibold text-dark mb-2">Gestion administrative</h6>
-                                <span class="fs-7 text-primary text-uppercase fw-semibold">en savoir plus</span>
-                            </div>
-                        </a>
+                <div class="row g-4 justify-content-center">
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
+                        <div class="bg-white border p-5 text-center h-100">
+                            <img src="assets/imgs/icons/icon-compta.png" alt="Tenue de livres et comptabilité" style="width: 90px; height: 90px; margin: 0 auto 24px;" />
+                            <h6 class="fw-semibold text-dark mb-2">Tenue de livres et comptabilité</h6>
+                            <p class="fw-semibold text-primary fs-7 mb-3">Une comptabilité organisée pour une meilleure vision de vos finances.</p>
+                            <p class="fs-7 mb-0">Tenue de livres, comptes clients et fournisseurs, conciliations bancaires, paie, rapports financiers et suivi comptable avec QuickBooks Online.</p>
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="150">
-                        <a href="services-comptabilite-administrative.html" class="text-decoration-none">
-                            <div class="bg-white border p-5 text-center h-100 hover-up">
-                                <img src="assets/imgs/icons/icon-compta.png" alt="Comptabilité administrative" style="width: 100px; height: 100px; margin: 0 auto 24px;" />
-                                <h6 class="fw-semibold text-dark mb-2">Comptabilité administrative</h6>
-                                <span class="fs-7 text-primary text-uppercase fw-semibold">en savoir plus</span>
-                            </div>
-                        </a>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                        <div class="bg-white border p-5 text-center h-100">
+                            <img src="assets/imgs/icons/icon-admin.png" alt="Gestion administrative" style="width: 90px; height: 90px; margin: 0 auto 24px;" />
+                            <h6 class="fw-semibold text-dark mb-2">Gestion administrative</h6>
+                            <p class="fw-semibold text-primary fs-7 mb-3">Une organisation efficace pour faciliter votre quotidien.</p>
+                            <p class="fs-7 mb-0">Coordination des opérations internes, gestion documentaire, suivi des dossiers, soutien administratif et accompagnement de votre équipe.</p>
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="300">
-                        <a href="services-paie-administration.html" class="text-decoration-none">
-                            <div class="bg-white border p-5 text-center h-100 hover-up">
-                                <img src="assets/imgs/icons/icon-paie.png" alt="Paie et administration des employés" style="width: 100px; height: 100px; margin: 0 auto 24px;" />
-                                <h6 class="fw-semibold text-dark mb-2">Paie et administration des employés</h6>
-                                <span class="fs-7 text-primary text-uppercase fw-semibold">en savoir plus</span>
-                            </div>
-                        </a>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="300">
+                        <div class="bg-white border p-5 text-center h-100">
+                            <img src="assets/imgs/icons/icon-paie.png" alt="Ressources humaines" style="width: 90px; height: 90px; margin: 0 auto 24px;" />
+                            <h6 class="fw-semibold text-dark mb-2">Ressources humaines</h6>
+                            <p class="fw-semibold text-primary fs-7 mb-3">Une gestion du personnel structurée et adaptée à votre entreprise.</p>
+                            <p class="fs-7 mb-0">Organisation des dossiers d’employés, suivi administratif, intégration du personnel et soutien dans la coordination des processus en ressources humaines.</p>
+                        </div>
                     </div>
-                    <div class="col-lg-3 col-md-6" data-aos="fade-up" data-aos-delay="450">
-                        <a href="services-construction.html" class="text-decoration-none">
-                            <div class="bg-white border p-5 text-center h-100 hover-up">
-                                <img src="assets/imgs/icons/icon-construction.png" alt="Gestion pour les entreprises de construction" style="width: 100px; height: 100px; margin: 0 auto 24px;" />
-                                <h6 class="fw-semibold text-dark mb-2">Gestion pour les entreprises de construction</h6>
-                                <span class="fs-7 text-primary text-uppercase fw-semibold">en savoir plus</span>
-                            </div>
-                        </a>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="0">
+                        <div class="bg-white border p-5 text-center h-100">
+                            <img src="assets/imgs/icons/icon-conformite.png" alt="Conformité et accompagnement administratif" style="width: 90px; height: 90px; margin: 0 auto 24px;" />
+                            <h6 class="fw-semibold text-dark mb-2">Conformité et accompagnement administratif</h6>
+                            <p class="fw-semibold text-primary fs-7 mb-3">Des démarches simplifiées pour une gestion bien encadrée.</p>
+                            <p class="fs-7 mb-0">Suivi des obligations administratives, préparation documentaire, accompagnement dans les démarches gouvernementales et soutien dans les dossiers liés à la CNESST et à l’équité salariale.</p>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 col-md-6" data-aos="fade-up" data-aos-delay="150">
+                        <div class="bg-white border p-5 text-center h-100">
+                            <img src="assets/imgs/icons/icon-optimisation.png" alt="Optimisation" style="width: 90px; height: 90px; margin: 0 auto 24px;" />
+                            <h6 class="fw-semibold text-dark mb-2">Optimisation</h6>
+                            <p class="fw-semibold text-primary fs-7 mb-3">Des solutions modernes pour gagner du temps et améliorer votre efficacité.</p>
+                            <p class="fs-7 mb-0">Analyse des processus, implantation d’outils numériques et automatisation des tâches.</p>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -277,9 +289,11 @@
                         <span class="mx-3">notre formule</span>
                         <div class="line"></div>
                     </span>
-                    <h2 class="text-dark mt-3 mb-4 text-anime-style-2">Une formule flexible</h2>
+                    <h2 class="text-dark mt-3 mb-4 text-anime-style-2">Une expertise accessible, au rythme de votre entreprise</h2>
                     <div class="col-lg-8 mx-auto">
-                        <p class="fs-18 mb-4">Vous choisissez les tâches à nous confier selon vos besoins. Nos services sont facturés à l’heure, uniquement pour le temps réellement travaillé.</p>
+                        <p class="fs-18">Profitez des avantages d’un service de gestion externe, parfaitement adapté à la taille et aux besoins de votre entreprise.</p>
+                        <p class="fs-18">Quelques heures par mois, un projet précis ou un accompagnement régulier : nos services évoluent avec vous.</p>
+                        <p class="fs-18 fw-semibold mb-4">Une facturation transparente, basée uniquement sur le temps réellement travaillé.</p>
                         <a href="#contact" class="text-uppercase fs-7 fw-semibold text-decoration-underline">parlons-en</a>
                     </div>
                 </div>
@@ -383,57 +397,90 @@
                         <div class="accordion">
                             <div class="px-0 card collapse-custom mb-3 border" data-aos="fade-up" data-aos-delay="0">
                                 <div class="p-0 card-header border-0 bg-transparent">
-                                    <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse1">
+                                    <a class="p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse1">
                                         <span class="me-3 arrow"></span>
-                                        <h6 class="mb-0 fs-20"><span>Travaillez-vous avec QuickBooks Online?</span></h6>
+                                        <h6 class="mb-0 fs-20"><span>À quelles entreprises s’adressent vos services?</span></h6>
                                     </a>
                                 </div>
-                                <div id="collapse1" class="collapse" data-bs-parent=".accordion">
-                                    <p class="pe-3 fs-6 fw-regular ps-7">Oui, pour la gestion comptable courante. Si votre entreprise utilise un autre système, on peut évaluer avec vous la possibilité d'une transition.</p>
+                                <div id="collapse1" class="collapse show" data-bs-parent=".accordion">
+                                    <p class="pe-3 fs-6 fw-regular ps-7">Gestion LaurAbel accompagne principalement les petites entreprises qui souhaitent bénéficier d’un soutien professionnel pour leur gestion interne. Nos services s’adaptent à votre structure, à vos ressources et à vos besoins.</p>
                                 </div>
                             </div>
                             <div class="px-0 card collapse-custom mb-3 border" data-aos="fade-up" data-aos-delay="200">
                                 <div class="p-0 card-header border-0 bg-transparent">
-                                    <a class="p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse2">
+                                    <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse2">
                                         <span class="me-3 arrow"></span>
-                                        <h6 class="mb-0 fs-20"><span>Pas besoin d'une personne à temps plein?</span></h6>
+                                        <h6 class="mb-0 fs-20"><span>Pouvez-vous agir comme responsable de notre gestion administrative?</span></h6>
                                     </a>
                                 </div>
-                                <div id="collapse2" class="collapse show" data-bs-parent=".accordion">
-                                    <p class="pe-3 fs-6 fw-regular ps-7">C'est souvent le cas de nos clients. Nos services s’adaptent aux tâches et au volume réellement nécessaires, pas besoin d'embaucher tout un département.</p>
+                                <div id="collapse2" class="collapse" data-bs-parent=".accordion">
+                                    <p class="pe-3 fs-6 fw-regular ps-7">Absolument! Nous pouvons prendre en charge différentes responsabilités administratives, coordonner vos opérations internes et assurer le suivi de vos dossiers. Vous profitez ainsi d’un service de gestion externe, adapté au rythme de votre entreprise.</p>
                                 </div>
                             </div>
                             <div class="px-0 card collapse-custom mb-3 border" data-aos="fade-up" data-aos-delay="400">
                                 <div class="p-0 card-header border-0 bg-transparent">
                                     <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse3">
                                         <span class="me-3 arrow"></span>
-                                        <h6 class="mb-0 fs-20"><span>Travaillez-vous avec les entreprises de construction?</span></h6>
+                                        <h6 class="mb-0 fs-20"><span>Nous avons déjà une personne responsable de l’administration. Pouvez-vous l’accompagner?</span></h6>
                                     </a>
                                 </div>
                                 <div id="collapse3" class="collapse" data-bs-parent=".accordion">
-                                    <p class="pe-3 fs-6 fw-regular ps-7">Oui. On connaît les réalités administratives particulières des petites entreprises de construction : feuilles de temps, CCQ, facturation par chantier, retenues contractuelles, etc.</p>
+                                    <p class="pe-3 fs-6 fw-regular ps-7">Bien sûr! Nous travaillons en collaboration avec votre personnel pour partager nos connaissances, structurer les tâches, améliorer les processus et faciliter la gestion quotidienne.</p>
                                 </div>
                             </div>
                             <div class="px-0 card collapse-custom mb-3 border" data-aos="fade-up" data-aos-delay="600">
                                 <div class="p-0 card-header border-0 bg-transparent">
                                     <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse4">
                                         <span class="me-3 arrow"></span>
-                                        <h6 class="mb-0 fs-20"><span>Comment fonctionne la première rencontre?</span></h6>
+                                        <h6 class="mb-0 fs-20"><span>Offrez-vous du soutien en ressources humaines?</span></h6>
                                     </a>
                                 </div>
                                 <div id="collapse4" class="collapse" data-bs-parent=".accordion">
-                                    <p class="pe-3 fs-6 fw-regular ps-7">Elle nous permet de comprendre votre fonctionnement, vos outils, vos irritants et les tâches que vous aimeriez enfin pouvoir déléguer.</p>
+                                    <p class="pe-3 fs-6 fw-regular ps-7">Oui! Nous pouvons vous accompagner dans l’organisation des dossiers d’employés, l’intégration du personnel, les suivis administratifs et la coordination de vos processus internes en ressources humaines.</p>
                                 </div>
                             </div>
                             <div class="px-0 card collapse-custom mb-3 border" data-aos="fade-up" data-aos-delay="800">
                                 <div class="p-0 card-header border-0 bg-transparent">
                                     <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse5">
                                         <span class="me-3 arrow"></span>
-                                        <h6 class="mb-0 fs-20"><span>Travaillez-vous à distance?</span></h6>
+                                        <h6 class="mb-0 fs-20"><span>Pouvez-vous nous accompagner dans nos obligations auprès de la CNESST?</span></h6>
                                     </a>
                                 </div>
                                 <div id="collapse5" class="collapse" data-bs-parent=".accordion">
-                                    <p class="pe-3 fs-6 fw-regular ps-7">Oui, on privilégie un environnement numérique et le travail à distance afin de garder nos opérations simples, rapides et efficaces.</p>
+                                    <p class="pe-3 fs-6 fw-regular ps-7">Oui! Nous offrons un soutien administratif pour organiser vos dossiers, préparer les documents nécessaires, suivre vos échéances et faciliter vos démarches auprès des organismes concernés, notamment la CNESST.</p>
+                                </div>
+                            </div>
+                            <div class="px-0 card collapse-custom mb-3 border" data-aos="fade-up" data-aos-delay="0">
+                                <div class="p-0 card-header border-0 bg-transparent">
+                                    <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse6">
+                                        <span class="me-3 arrow"></span>
+                                        <h6 class="mb-0 fs-20"><span>Pouvez-vous nous aider avec l’équité salariale?</span></h6>
+                                    </a>
+                                </div>
+                                <div id="collapse6" class="collapse" data-bs-parent=".accordion">
+                                    <p class="pe-3 fs-6 fw-regular ps-7">Oui! Nous pouvons vous accompagner dans la collecte des informations, l’organisation des données et l’utilisation des outils mis à la disposition des employeurs, en collaboration avec les professionnels spécialisés lorsque requis.</p>
+                                </div>
+                            </div>
+                            <div class="px-0 card collapse-custom mb-3 border" data-aos="fade-up" data-aos-delay="200">
+                                <div class="p-0 card-header border-0 bg-transparent">
+                                    <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse7">
+                                        <span class="me-3 arrow"></span>
+                                        <h6 class="mb-0 fs-20"><span>Comment fonctionne votre accompagnement?</span></h6>
+                                    </a>
+                                </div>
+                                <div id="collapse7" class="collapse" data-bs-parent=".accordion">
+                                    <p class="pe-3 fs-6 fw-regular ps-7">Nous commençons par une évaluation de votre fonctionnement et de vos besoins afin de déterminer les services les mieux adaptés à votre entreprise. Nous proposons ensuite un accompagnement ponctuel ou régulier, avec une facturation transparente basée sur le temps réellement travaillé.</p>
+                                </div>
+                            </div>
+                            <div class="px-0 card collapse-custom mb-3 border" data-aos="fade-up" data-aos-delay="400">
+                                <div class="p-0 card-header border-0 bg-transparent">
+                                    <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse8">
+                                        <span class="me-3 arrow"></span>
+                                        <h6 class="mb-0 fs-20"><span>Comment savoir quels services seraient utiles à mon entreprise?</span></h6>
+                                    </a>
+                                </div>
+                                <div id="collapse8" class="collapse" data-bs-parent=".accordion">
+                                    <p class="pe-3 fs-6 fw-regular ps-7">Chaque entreprise possède ses propres besoins et façons de fonctionner. Une première rencontre nous permet de découvrir votre organisation, d’identifier les possibilités d’amélioration et de déterminer ensemble les services qui apporteront le plus de valeur à votre quotidien.</p>
                                 </div>
                             </div>
                         </div>
@@ -442,56 +489,89 @@
                         <div class="accordion2">
                             <div class="px-0 card collapse-custom mb-3 border" data-aos="fade-up" data-aos-delay="0">
                                 <div class="p-0 card-header border-0 bg-transparent">
-                                    <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse6">
+                                    <a class="p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse9">
                                         <span class="me-3 arrow"></span>
-                                        <h6 class="mb-0 fs-20"><span>Quelle taille d'entreprise desservez-vous?</span></h6>
+                                        <h6 class="mb-0 fs-20"><span>Travaillez-vous en collaboration avec des comptables, avocats et professionnels en ressources humaines?</span></h6>
                                     </a>
                                 </div>
-                                <div id="collapse6" class="collapse" data-bs-parent=".accordion2">
-                                    <p class="pe-3 fs-6 fw-regular ps-7">Nous accompagnons principalement les PME de la Montérégie et de l'Estrie qui souhaitent externaliser leur gestion administrative et comptable. Que vous ayez quelques employés ou une équipe plus importante, c'est surtout votre volume administratif et votre organisation interne qui déterminent si nos services vous conviennent.</p>
+                                <div id="collapse9" class="collapse show" data-bs-parent=".accordion2">
+                                    <p class="pe-3 fs-6 fw-regular ps-7 mb-2">Absolument! Gestion LaurAbel agit comme partenaire complémentaire à ces professionnels. Nous vous accompagnons dans la préparation de vos rencontres, l’organisation de vos documents et la structuration de vos dossiers afin d’optimiser votre temps et celui des spécialistes.</p><p class="pe-3 fs-6 fw-regular ps-7 mb-2">Nous collaborons également avec des partenaires de confiance et pouvons vous orienter vers les professionnels adaptés à vos besoins.</p><p class="pe-3 fs-6 fw-regular ps-7">Notre objectif : faciliter vos démarches, maximiser vos ressources et simplifier votre gestion.</p>
                                 </div>
                             </div>
                             <div class="px-0 card collapse-custom mb-3 border" data-aos="fade-up" data-aos-delay="200">
                                 <div class="p-0 card-header border-0 bg-transparent">
-                                    <a class="p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse7">
+                                    <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse10">
                                         <span class="me-3 arrow"></span>
-                                        <h6 class="mb-0 fs-20"><span>Comment facturez-vous vos services?</span></h6>
+                                        <h6 class="mb-0 fs-20"><span>Travaillez-vous avec QuickBooks Online?</span></h6>
                                     </a>
                                 </div>
-                                <div id="collapse7" class="collapse show" data-bs-parent=".accordion2">
-                                    <p class="pe-3 fs-6 fw-regular ps-7">Vous choisissez les tâches à nous confier selon vos besoins. Nos services sont facturés à l’heure, uniquement pour le temps réellement travaillé.</p>
+                                <div id="collapse10" class="collapse" data-bs-parent=".accordion2">
+                                    <p class="pe-3 fs-6 fw-regular ps-7">Oui, pour la gestion comptable courante. Si votre entreprise utilise un autre système, on peut évaluer avec vous la possibilité d'une transition.</p>
                                 </div>
                             </div>
                             <div class="px-0 card collapse-custom mb-3 border" data-aos="fade-up" data-aos-delay="400">
                                 <div class="p-0 card-header border-0 bg-transparent">
-                                    <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse8">
+                                    <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse11">
                                         <span class="me-3 arrow"></span>
-                                        <h6 class="mb-0 fs-20"><span>Utilisez-vous l'automatisation ou l'IA?</span></h6>
+                                        <h6 class="mb-0 fs-20"><span>Pas besoin d'une personne à temps plein?</span></h6>
                                     </a>
                                 </div>
-                                <div id="collapse8" class="collapse" data-bs-parent=".accordion2">
-                                    <p class="pe-3 fs-6 fw-regular ps-7">Oui, lorsque l'IA nous sert de complément, mais nous conservons la supervision humaine là où elle est nécessaire.</p>
+                                <div id="collapse11" class="collapse" data-bs-parent=".accordion2">
+                                    <p class="pe-3 fs-6 fw-regular ps-7">C'est souvent le cas de nos clients. Nos services s’adaptent aux tâches et au volume réellement nécessaires, pas besoin d'embaucher tout un département.</p>
                                 </div>
                             </div>
                             <div class="px-0 card collapse-custom mb-3 border" data-aos="fade-up" data-aos-delay="600">
                                 <div class="p-0 card-header border-0 bg-transparent">
-                                    <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse9">
+                                    <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse12">
                                         <span class="me-3 arrow"></span>
-                                        <h6 class="mb-0 fs-20"><span>Pouvez-vous m'aider à économiser?</span></h6>
+                                        <h6 class="mb-0 fs-20"><span>Travaillez-vous avec les entreprises de construction?</span></h6>
                                     </a>
                                 </div>
-                                <div id="collapse9" class="collapse" data-bs-parent=".accordion2">
-                                    <p class="pe-3 fs-6 fw-regular ps-7">Oui. Si nous repérons des tâches faites en double, des processus qui pourraient être simplifiés, des outils ou logiciels mal adaptés ou des dépenses qui pourraient être réduites, nous vous proposerons des solutions plus efficaces et économiques.</p>
+                                <div id="collapse12" class="collapse" data-bs-parent=".accordion2">
+                                    <p class="pe-3 fs-6 fw-regular ps-7">Oui. On connaît les réalités administratives particulières des petites entreprises de construction : feuilles de temps, CCQ, facturation par chantier, retenues contractuelles, etc.</p>
                                 </div>
                             </div>
                             <div class="px-0 card collapse-custom mb-3 border" data-aos="fade-up" data-aos-delay="800">
                                 <div class="p-0 card-header border-0 bg-transparent">
-                                    <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse10">
+                                    <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse13">
+                                        <span class="me-3 arrow"></span>
+                                        <h6 class="mb-0 fs-20"><span>Travaillez-vous à distance?</span></h6>
+                                    </a>
+                                </div>
+                                <div id="collapse13" class="collapse" data-bs-parent=".accordion2">
+                                    <p class="pe-3 fs-6 fw-regular ps-7">Oui, on privilégie un environnement numérique et le travail à distance afin de garder nos opérations simples, rapides et efficaces.</p>
+                                </div>
+                            </div>
+                            <div class="px-0 card collapse-custom mb-3 border" data-aos="fade-up" data-aos-delay="0">
+                                <div class="p-0 card-header border-0 bg-transparent">
+                                    <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse14">
+                                        <span class="me-3 arrow"></span>
+                                        <h6 class="mb-0 fs-20"><span>Utilisez-vous l'automatisation ou l'IA?</span></h6>
+                                    </a>
+                                </div>
+                                <div id="collapse14" class="collapse" data-bs-parent=".accordion2">
+                                    <p class="pe-3 fs-6 fw-regular ps-7">Oui, lorsque l'IA nous sert de complément, mais nous conservons la supervision humaine là où elle est nécessaire.</p>
+                                </div>
+                            </div>
+                            <div class="px-0 card collapse-custom mb-3 border" data-aos="fade-up" data-aos-delay="200">
+                                <div class="p-0 card-header border-0 bg-transparent">
+                                    <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse15">
+                                        <span class="me-3 arrow"></span>
+                                        <h6 class="mb-0 fs-20"><span>Pouvez-vous m'aider à économiser?</span></h6>
+                                    </a>
+                                </div>
+                                <div id="collapse15" class="collapse" data-bs-parent=".accordion2">
+                                    <p class="pe-3 fs-6 fw-regular ps-7">Oui. Si nous repérons des tâches faites en double, des processus qui pourraient être simplifiés, des outils ou logiciels mal adaptés ou des dépenses qui pourraient être réduites, nous vous proposerons des solutions plus efficaces et économiques.</p>
+                                </div>
+                            </div>
+                            <div class="px-0 card collapse-custom mb-3 border" data-aos="fade-up" data-aos-delay="400">
+                                <div class="p-0 card-header border-0 bg-transparent">
+                                    <a class="collapsed p-3 fw-bold d-flex align-items-center" data-bs-toggle="collapse" href="#collapse16">
                                         <span class="me-3 arrow"></span>
                                         <h6 class="mb-0 fs-20"><span>Offrez-vous autre chose que l'administration courante?</span></h6>
                                     </a>
                                 </div>
-                                <div id="collapse10" class="collapse" data-bs-parent=".accordion2">
+                                <div id="collapse16" class="collapse" data-bs-parent=".accordion2">
                                     <p class="pe-3 fs-6 fw-regular ps-7">Oui : ressources humaines, budgets, procédures et optimisation, automatisation, subventions et soutien numérique de base.</p>
                                 </div>
                             </div>
@@ -506,7 +586,7 @@
                 <div class="bg-overlay"></div>
                 <div class="container position-relative z-1">
                     <div class="d-flex flex-wrap justify-content-center justify-content-lg-between align-items-center gap-5">
-                        <h2 class="text-white mb-0 text-center text-anime-style-2">Parlons de votre entreprise.</h2>
+                        <h2 class="text-white mb-0 text-center text-lg-start text-anime-style-2">Toute l’expertise d’un service de gestion, adaptée à la taille de votre entreprise.</h2>
                         <a href="#contact" class="btn btn-white" data-aos="zoom-in" data-aos-delay="200">
                             <span class="text-dark">nous écrire</span>
                             <i class="bi bi-arrow-right text-primary"></i>
